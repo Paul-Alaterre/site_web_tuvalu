@@ -1,0 +1,231 @@
+/*********/
+/*Global*/
+/*********/
+
+
+html{
+    background-image: url("../Images/Tuvalu_costume_2.jpg");
+}
+
+#article1{
+	min-height: 500px;
+}
+
+#article2{
+    min-height: 960px;
+}
+
+#article3{
+    min-height: 1025px;
+}
+
+
+/*******/
+/*Carte*/
+/*******/
+
+
+.map{
+	width: 300px;
+	height: 200px;
+	border-radius: 100px;
+	position: absolute;
+	border:solid;
+	border-color: rgb(14, 22, 31);
+}
+
+#map1{
+	z-index:7;
+	
+}
+
+#map2{
+	z-index:6;
+}
+
+#map3{
+	z-index:5;
+}
+
+#map4{
+	z-index:4;
+}
+
+#map5{
+	z-index:3;
+}
+
+#map6{
+	z-index:2;
+}
+
+#map7{
+	z-index:1;
+}
+#cadre:hover #map1{
+	z-index:1;
+	transition: 0s 1.5s;
+}
+
+#cadre:hover #map2{
+	z-index:1;
+	transition: 0s 3s;
+}
+
+#cadre:hover #map3{
+	z-index:1;
+	transition: 0s 4.5s;
+}
+
+#cadre:hover #map4{
+	z-index:1;
+	transition: 0s 6s;
+}
+
+#cadre:hover #map5{
+	z-index:1;
+	transition: 0s 7.5s;
+}
+
+#cadre:hover #map6{
+	z-index:1;
+	transition: 0s 9s;
+}
+
+#cadre:hover #map7{
+	z-index:1;
+	transition: 0s 10.5s;
+}
+
+#cadre{
+	position: absolute;
+	left: 20%;
+	background-color: rgb(255,255,255, 1);
+	padding: 30px;
+	width: 300px;
+	height: 250px;
+	border-radius: 30px;
+}
+
+#cadre:hover{
+	box-shadow: 0px 0px 20px rgb(14, 22, 31);
+}
+
+/************/
+/*Hiérarchie*/
+/************/
+
+#hierarchie{
+	display: grid;
+	grid-template-rows: 45px 1fr 45px 1fr 90px 1fr 45px 1fr 45px 1fr 45px;
+	justify-content: center;
+	justify-items:center;
+	background-color: rgb(14, 22, 31);
+	border-radius: 50px;
+	padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fleche-vert{
+	width:30px;
+	height:50px;	
+}
+
+.hierarchie-element{
+	background-color: rgb(255,255,255);
+	border: solid;
+	border-color: #fac900;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+}
+
+#ainees-importants{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	gap:10px;
+	color: white;
+}
+
+#hierarchie:hover #chef{
+	color: rgb(14, 22, 31);
+	transition: 0s 1s;
+}
+
+#hierarchie:hover #assistant-chef{
+	color: rgb(14, 22, 31);
+	transition: 0s 3s;
+}
+
+
+#hierarchie:hover #ainees{
+	color: rgb(14, 22, 31);
+	transition: 0s 5s;
+}
+
+#hierarchie:hover #importants{
+	color: rgb(14, 22, 31);
+	transition: 0s 5s;
+}
+
+
+#hierarchie:hover #hommes-femmes{
+	color: rgb(14, 22, 31);
+	transition: 0s 7s;
+}
+
+
+#hierarchie:hover #nv-arr{
+	color: rgb(14, 22, 31);
+	transition: 0s 9s;
+}
+
+
+#hierarchie:hover #esclaves{
+	color: rgb(14, 22, 31);
+	transition: 0s 11s;
+}
+
+/*********/
+/*Tableau*/
+/*********/
+
+#tab-pop{
+    background-color: rgb(14, 22, 31);
+    border-radius: 20px;
+    width:400px;
+    height:250px;
+	padding-bottom: 20px;
+}
+#tab-pop-image{
+    width:350px;
+    height:200px;
+    padding: 10px 25px;
+    border-radius: 10%;
+}
+
+#tab-pop-legende{
+    border-radius: 20px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 0 100px;
+}
+
+
+/********/
+/*Dollar*/
+/********/
+
+
+#dollar{
+    width: 100px;
+    height: 100px;
+    margin-right: 500px;
+}
+
+#article3:hover #dollar{
+    transform: translate(150%) rotate(360deg);
+    transition: 10s;
+}

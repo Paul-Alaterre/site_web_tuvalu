@@ -1,0 +1,41 @@
+/*********/
+/*General*/
+/*********/
+
+html{
+    background-image: url("../Images/ile.png");
+    background-size: 100px;
+}
+
+figure{
+    position: relative;
+    padding: 0;
+    margin: 10px; 
+    width: 200px; 
+    float: right; 
+}
+
+figure img{
+    width: 200px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+}    
+
+figcaption{
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding : 2px 5px;
+    font-size: 15px;
+}
+
+#article1{
+    padding-bottom:  20px;
+}
+
+#article2{
+    padding-bottom:  20px;
+}

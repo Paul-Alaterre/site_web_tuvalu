@@ -1,0 +1,179 @@
+/*********/
+/*Global*/
+/*********/
+
+
+@font-face {
+    font-family: 'geomedium';
+    src: url('geo-webfont.woff2') format('woff2'),
+         url('geo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-family: geomedium;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 0px;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 22, 31);
+}
+
+li{
+    list-style-type: square;
+}
+
+mark{
+	background-color: #ffffff;
+}
+
+.p-sans-saut{
+	margin: 0px;
+}
+
+
+/*****************/
+/*Haut de la page*/
+/*****************/
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-items: center;
+    align-items: center;
+    padding:10px 0;
+    position: fixed;
+    background-color: rgb(14, 22, 31);
+    width: 100%;
+    z-index: 10;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+#logo{
+    background-color: rgb(14, 22, 31);
+}
+
+#logo img{
+    width: 80px;
+}
+
+#sommaire{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+#sommaire .element{
+    padding: 10px 20px;
+    background-color: #fac900;
+    border-radius: 20px;
+}
+
+
+#sommaire .element:hover{
+    box-shadow: 5px 5px 5px white;
+}
+
+
+/*******************/
+/*Milieu de la page*/
+/*******************/
+
+
+main{
+	margin-top: 130px;
+	padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    min-width: 800px;
+}
+
+article{
+    background-color: #fac900;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: rgb(14, 22, 31);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+article h1{
+	padding-top: 20px;
+	margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+article p{
+    font-size: 20px;
+}
+
+aside{
+    display: grid;
+    grid-template-rows: 50px 400px;
+    gap: 10px;
+    color: white;
+}
+
+aside h2{
+    background-color: rgb(14, 22, 31);
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#chat{
+    background-color: rgb(14, 22, 31);
+    border-radius: 10px;
+}
+
+.message{
+    background-color: rgb(14, 22, 31);
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+    
+
+/**************/
+/*Pied de page*/
+/**************/
+
+
+#pied-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: rgb(14, 22, 31);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 10px 0px;   
+}
+
+#pied-page .element{
+    color: white;
+    font-size: 15px;
+}

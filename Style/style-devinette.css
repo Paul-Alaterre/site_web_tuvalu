@@ -1,0 +1,76 @@
+/*********/
+/*Global*/
+/*********/
+
+
+html{
+    background-image: url("../Images/point-interrogation.jpg");
+}
+
+#article1{
+	min-height: 600px;
+    position: relative;
+}
+
+aside{
+    position: relative;
+}
+
+#indice-1{
+    font-size: 3px;
+    color: white;
+    position: absolute;
+    top : 300px;
+    left: 30px;
+}
+
+#indice-2{
+    position:absolute;
+    top:95px;
+    left: 460px;
+    color: rgb(14, 22, 31);
+    font-size: 20px;
+}
+
+#indice-2:focus{
+    background-image: url("../Images/television.jpg");
+    background-repeat: no-repeat;
+    background-color: unset;
+    padding:100px;
+    font-display: none;
+}
+
+#indice-3{
+    position:absolute;
+    top:400px;
+    left: 275px;
+    color: rgb(14, 22, 31);
+    font-size: 20px;
+    border-radius: 45%;
+    background-color: white;
+}
+
+#indice-3:focus{
+    background-image: url("../Images/dns-pays.png");
+    transition: 3s 3s;
+    padding: 200px;
+}
+
+
+#article2{
+    height: 100px;
+}
+
+#article2 p{
+    display: none;
+}
+
+#article2:hover {
+    height: 200px;
+}
+
+#article2:hover #texte-renverse{
+    display: block;
+    transform: rotate(180deg);
+}
+

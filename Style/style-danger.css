@@ -1,0 +1,20 @@
+/*********/
+/*Général*/
+/*********/
+
+html{
+    background-image: url("../Images/bulles.jpg");
+    background-size: 200px;
+}   
+
+#article1{
+    padding-bottom : 20px;
+}
+
+video{
+    padding-left: 170px;
+}
+
+#article2{
+    padding-bottom : 20px;
+}

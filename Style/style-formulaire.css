@@ -1,0 +1,21 @@
+
+/*********/
+/*Général*/
+/*********/
+
+html{
+    background-image: url("../Images/message.png");
+    background-size: 100px;
+}
+
+#article1{
+    padding-bottom: 20px;
+}
+
+#article2{
+    padding-bottom: 20px;
+}
+
+#article3{
+    padding-bottom: 20px;
+}
