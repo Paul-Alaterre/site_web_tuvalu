@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="Style/style-formulaire.css">
+  <meta name="author" content="alaterr241">
+</head>
+<body>
+    <header>
+        <a href="accueil.html" id="logo"><img src="Images/Logo.png" alt="Logo"></a>
+        <div id="sommaire">
+            <a href="passe.html"><div class="element">Passé</div></a>
+            <a href="devinette.html"><div class="element">Devinette</div></a>
+            <a href="danger.html"><div class="element">Danger</div></a>
+			<a href="formulaire.html"><div class="element">Inscription</div></a>
+        </div>
+    </header>
+    <main>
+		<div class="contenu">
+			<article id="article1">
+				<h1>Introduction</h1>
+				<p>
+                    Cette page permet de vous enregistrer sur le metavers de Tuvalu. Attention ! Cela n'est pas permis à quiconque le souhaite car être sur le metavers incombe des responsabilités importantes et présente un nombre limité de places
+                </p>
+            </article>
+            <article id="article2">
+                <h1>Identité</h1>
+                <form action="accueil.html" method="POST">
+                    Votre quatrième prénom si vous en possédez un :
+                    <input type="text" placeholder="Patrick" name="prenom" />
+                    <br><br>
+                    Votre nom de famille écrit à l'envers si il commence par une voyelle : 
+                    <input type="text" placeholder="kayak" name="nom" />
+                    <br><br>
+                    Votre age : 
+                    <input type="text" placeholder="42" name="age-1" />
+                    <br><br>
+                    Encore votre age :
+                    <input type="text" placeholder="42" name="age-2" />
+                    <br><br>
+                    <fieldset>
+                        <legend>Ma taille additionné à la hauteur du plus haut point de Tuvalu :</legend>
+                        <input type="text" placeholder="1.2m" name="taille" />
+                        <br><br>
+                        <label><input type="radio" value="none" name="taille" /> Je ne sais pas additionner</label>
+                        <br><br>
+                        <label><input type="radio" value="none" name="taille" /> Je n'ai pas lu le site dans son entiereté</label>
+                        <br><br>
+                        <label><input type="radio" value="none" name="taille" /> Je ne préfère pas comuniquer cette infirmation, je suis vraiment désolé, ne m'en voulez pas.</label>
+                    </fieldset>
+                </form>
+            </article>
+            <article id="article3">
+                <h1>Informations complémentaires</h1>
+                <form action="accueil.html" method="POST">
+                    Comment avez vous découvert ce magnifique site web ?
+                    <br><br>
+                    <textarea cols="50" rows="5" name="raison-decouverte">Mettre du texte ici !</textarea>
+                    <br><br>
+                    Pourquoi voulez vous rejoindre le metavers de Tuvalu ?
+                    <br><br>
+                    <textarea cols="50" rows="5" name="raison-rejoindre">Mettre du texte ici !</textarea>
+                    <br><br>
+                    <fieldset>
+                        <legend>En entrant dans le multivers, j'accèpte de mettre fin à ma vie réelle, physique :</legend>
+                        <label><input type="radio" value="oui" name="accepte" />Oui</label>
+                        <label><input type="radio" value="non" name="accepte" />Non</label>
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend>J'ai trouvé ce formulaire très pertinent ?</legend>
+                        <label><input type="radio" value="oui" name="accepte" />Oui</label>
+                        <label><input type="radio" value="oui" name="accepte" />Oui</label>
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend>J'ai menti à la dernière question ?</legend>
+                        <label><input type="radio" value="non" name="mensonge" />Non</label>
+                        <label><input type="radio" value="oui" name="mensonge" />Oui</label>
+                    </fieldset>
+                    <br><br>
+                    <button type="submit">Envoyer !</button>
+                </form>
+
+            </article>
+        </div>
+        <aside>
+            <h2>Metavers de Tuvalu</h2>
+            <div id="chat">
+                <p class="message">
+                    user314 : Is there someone here?
+                </p>
+                <p class="message">
+                    unknown_user : Yeah ! Are you from Tuvalu ?
+                </p>
+                <p class="message">
+                    user314 : No, I just found that funny to come here ; )
+                </p>
+                <p class="message">
+                    unknown_user : But have you clicked on the wrong option ?
+                </p>
+                <p class="message">
+                    wonderfull_cat : I did it, and I’ve been stuck here for years since I accepted this ****** form ! Please HELP ME !
+                </p>
+                <p class="message">
+                    user314 : Well...
+                </p>
+            </div>
+            
+        </aside>
+    </main>
+    <footer>
+        <ul id="pied-page">
+            <li class="element">Gestion des cookies</li>
+            <li class="element">Mentions légales</li>
+            <li class="element">Accessibilité</li>
+            <li class="element">Copyright</li>
+        </ul>
+    </footer>
+</body>
+</html>
+
